@@ -23,4 +23,5 @@ jobs:
       - name: PowerShell Directory
         run: Get-Location
       - name:  Directory Bash
+        run: pwd
         shell: bash
