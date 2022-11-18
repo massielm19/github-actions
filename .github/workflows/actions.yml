@@ -15,7 +15,10 @@ jobs:
       - name: List Files after checkout
         run: |
           pwd
-          ls       
+          ls    
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
+          echo $GITHUB_WORKSPACE  
 
       - name: simple JS Action
         id: greet
