@@ -3,8 +3,8 @@ name: Action workfkow2
 on: 
   schedule:
     - cron: "0/5 * * * *"
-  push:
-  #pull_request:
+  #push:
+  pull_request:
   #  types: [ closed, assigned, opened, reopened]
   
 
